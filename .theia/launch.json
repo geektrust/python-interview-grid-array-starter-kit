@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "gt_main_wrapper.py",
+      "args": [
+        "0,1,2 | 0,1,2 | 2,1,1"
+      ],
+      "console": "integratedTerminal"
+    },
+  ]
+}
