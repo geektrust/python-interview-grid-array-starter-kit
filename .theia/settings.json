@@ -3,9 +3,16 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "files.exclude": {
+    // Common
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
     ".theia": true,
     ".gitignore": true,
     ".gtignore": true,
+    // Python
     "gt_main_wrapper.py": true,
     "__pycache__": true,
     ".pytest_cache": true,
